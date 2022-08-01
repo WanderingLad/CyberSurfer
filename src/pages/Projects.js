@@ -1,10 +1,6 @@
-import React from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { DISCORD, PORTFOLIO, STAMINA, BOUGIE } from '../utils/actions';
+import React from 'react';;
 
 export default function Projects() {
-    const state = useSelector((state) => state);
-    const dispatch = useDispatch();
 
     return (
         <section id="portfolio" className="portfolio">
@@ -20,11 +16,11 @@ export default function Projects() {
                 <div className="top-portfolio">
                     <figure>
                         <div className="main-image-wrapper flex">
-                            <img id="change-img"  src={state.page.activeImage} alt={state.page.activeAlt} />
-                            <button className="port-button" onClick={()=> window.open(state.page.activeLink, "_blank")}>Go to Project</button>
+                            <img id="change-img" />
+                            <button className="port-button">Go to Project</button>
                         </div>
                         <p id="change-p">
-                            {state.page.activeDescription}
+                            
                         </p>
 
                     </figure>
@@ -33,28 +29,28 @@ export default function Projects() {
                 <div className="bottom-portfolio grid">
                     <figure className="thumbnail">
 
-                        <img id="bot" longdesc="" src={require("../images/Space.PNG")} alt="Space Walk" onClick={() =>dispatch({type: SPACE})}/>
+                        <img id="bot" longdesc="" alt="Space Walk" />
                         <figcaption>An open source peer-reviewed website that helps teach about our Solar System.</figcaption>
 
                     </figure>
 
                     <figure className="thumbnail">
 
-                        <img id="code" src={require("../images/Portfolio.png")} alt="My Portfolio" onClick={() =>dispatch({type: PORTFOLIO})}/>
+                        <img id="code" alt="My Portfolio"/>
                         <figcaption>My portfolio's code that I wrote.</figcaption>
 
                     </figure>
 
                     <figure className="thumbnail">
 
-                        <img id="stamina" src={require("../images/Project-Stamina.jpg")} alt="Project Stamina" onClick={() =>dispatch({type: STAMINA})}/>
+                        <img id="stamina"  alt="Project Stamina"/>
                         <figcaption>Project Stamina is a Third-Person Action MOBA that I worked as a Gameplay Programmer on.</figcaption>
 
                     </figure>
 
                     <figure className="thumbnail">
 
-                        <img id="food" longdesc="" src={require("../images/Bougie.png")} alt="Bougie Foodie" onClick={() =>dispatch({type: BOUGIE})}/>
+                        <img id="food" longdesc="" alt="Bougie Foodie"/>
                         <figcaption>Bougie Foodie helps you learn about the food you want to cook.</figcaption>
 
                     </figure>

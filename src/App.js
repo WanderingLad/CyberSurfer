@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
 import Header from "./components/Header";
-import ContainerComponent from './components/ContainerComponent';
+import Main from './components/Main';
 import Footer from "./components/Footer";
-import PageProvider from './utils/PageContext';
 
 export default function App() {
   useEffect(() => {
@@ -10,10 +9,10 @@ export default function App() {
   }, []);
 
   return (
-    <PageProvider>
-        <Header />
-        <ContainerComponent />
-        <Footer />
-    </PageProvider>
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
   );
 }

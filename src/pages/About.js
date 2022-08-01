@@ -16,7 +16,7 @@ export default function About() {
                 </p>
 
                 <figure>
-                    <img id="self-portrait" src={require("../images/Self-Portrait.PNG")} alt="It'sa me." align="right" />
+                    <img id="self-portrait" alt="It'sa me." align="right" />
                 </figure>
 
                 <p>
