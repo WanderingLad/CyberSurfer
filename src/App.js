@@ -5,14 +5,13 @@ import Footer from "./components/Footer";
 
 export default function App() {
   useEffect(() => {
-    document.title = 'Jimmy Reilly Portfolio';
+    document.title = 'CyberSurferWeb';
   }, []);
 
   return (
-    <div>
+    <div className="container">
       <Header />
       <Main />
-      <Footer />
     </div>
   );
 }
