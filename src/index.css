@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0px;
   padding: 0px;
   font-size: 16px;
@@ -22,52 +22,62 @@
 }
 
 
-h2{
+h2 {
   font-size: 3rem;
 }
 
-p{
+p {
   line-height: 2.5rem;
 }
 
-b{
+b {
   font-weight: bold;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-p, a{
+p,
+a {
   font-size: 2rem;
 }
 
-.gradient{
+.gradient {
   background: linear-gradient(to right, var(--pink), var(--teal), var(--orange));
   height: 10px;
 }
 
 header {
   position: fixed;
-  top:0;
-  width:100%;
+  top: 0;
+  width: 100%;
   background-color: #FFFFFF;
+}
+
+.inside-section {
+  background-color: darkgrey;
+}
+
+.inside-section h2 {
+  color: white;
+}
+
+.inside-section hr {
+  width: 100%;
+  border-color: var(--pink);
 }
 
 .socials {
   display: inline-grid;
 }
 
-#welcome, .name{
-  font-size: 4rem;
-}
-
 #logo {
-  max-width:25%;
+  max-width: 25%;
 }
 
-.flex{
-  display:flex;
+.flex {
+  display: flex;
   align-items: center;
   justify-content: center;
 }

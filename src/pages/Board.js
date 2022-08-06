@@ -1,13 +1,13 @@
 import React from 'react';
 
-export default function About() {
+export default function Board() {
     return (
-        <section id="about-section" className="about-section">
+        <section id="board-section" className="board-section">
             <div className="inside-section">
 
                 <div>
                     <h2>
-                        World Name Here
+                        Your Board
                     </h2>
                 </div>
 
@@ -35,6 +35,10 @@ export default function About() {
                     <div>
                         <img id="logo" src={require('../images/Logo.png')} alt="Logo" />
                     </div>
+                </div>
+
+                <div>
+                    <img id="logo" src={require('../images/Logo.png')} alt="Logo" />
                 </div>
 
             </div>

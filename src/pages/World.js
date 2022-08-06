@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function About() {
+export default function World() {
     return (
-        <section id="about-section" className="about-section">
+        <section id="world-section" className="world-section">
             <div className="inside-section">
 
                 <div>
