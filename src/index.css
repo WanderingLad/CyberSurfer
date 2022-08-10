@@ -55,11 +55,58 @@ header {
   background-color: #FFFFFF;
 }
 
-.inside-section {
-  background-color: darkgrey;
+#title-section {
+  margin: 3rem 15rem;
+
+  background-color: var(--black);
+  border-radius: 25px;
+
+  padding: 1rem;
 }
 
-.inside-section h2 {
+#title-section .inside-section {
+  background-color: rgba(29, 28, 28, 0.5);
+}
+
+#board-section {
+  margin: 3rem 15rem;
+
+  background-color: var(--teal);
+  border-radius: 25px;
+
+  padding: 1rem;
+}
+
+#board-section .inside-section {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#world-section {
+  margin: 3rem 15rem;
+
+  background-color: var(--pink);
+  border-radius: 25px;
+
+  padding: 1rem;
+}
+
+#world-section .inside-section {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#about-section {
+  margin: 3rem 15rem;
+
+  background-color: var(--orange);
+  border-radius: 25px;
+}
+
+#about-section .inside-section {
+  margin: 1rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.inside-section h2, p {
   color: white;
 }
 
@@ -84,6 +131,12 @@ header {
 
 .home {
   background-color: black;
+}
+
+body {
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 footer {
