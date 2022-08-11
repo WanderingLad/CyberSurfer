@@ -55,6 +55,17 @@ header {
   background-color: #FFFFFF;
 }
 
+#header-logo {
+  max-width: 40%;
+  max-height: 100%;
+}
+
+.home {
+  background-color: black;
+
+  margin-top: 3rem;
+}
+
 #title-section {
   margin: 3rem 15rem;
 
@@ -119,18 +130,10 @@ header {
   display: inline-grid;
 }
 
-#logo {
-  max-width: 25%;
-}
-
 .flex {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.home {
-  background-color: black;
 }
 
 body {

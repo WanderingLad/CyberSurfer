@@ -3,7 +3,7 @@ import React from 'react';
 export default function Navigation() {
 
     return (
-        <nav className="col-6">
+        <nav>
 
             <a id="about-me-nav" href="#about-me">Trailer</a>
 

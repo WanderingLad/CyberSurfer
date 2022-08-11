@@ -31,12 +31,12 @@ export default function Board() {
                     </div>
 
                     <div>
-                        <img id="logo" src={require('../images/Logo.png')} alt="Logo" />
+                        <img id="header-logo" src={require('../images/Logo.png')} alt="Logo" />
                     </div>
                 </div>
 
                 <div>
-                    <img id="logo" src={require('../images/Logo.png')} alt="Logo" />
+                    <img id="header-logo" src={require('../images/Logo.png')} alt="Logo" />
                 </div>
 
             </div>
