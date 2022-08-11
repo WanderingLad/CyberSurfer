@@ -5,15 +5,15 @@ export default function Navigation() {
     return (
         <nav>
 
-            <a id="about-me-nav" href="#about-me">Trailer</a>
+            <a href="#about-me">Trailer</a>
 
-            <a id="about-me-nav" href="#about-me">Board</a>
+            <a href="#about-me">Board</a>
 
-            <a id="about-me-nav" href="#about-me">Game</a>
+            <a href="#about-me">Game</a>
 
-            <a id="about-me-nav" href="#about-me">About</a>
+            <a href="#about-me">About</a>
 
-            <a id="about-me-nav" href="#about-me">Contact</a>
+            <a href="#about-me">Contact</a>
 
         </nav>
     )
