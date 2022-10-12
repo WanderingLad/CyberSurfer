@@ -1,19 +1,22 @@
 import React from 'react';
 import Title from './Title';
 import Board from './Board';
+import Game from './Game';
 import World from './World';
+import Cover from './Cover';
 import Cards from './Cards';
 import About from './About';
 import Footer from '../components/Footer';
 
 export default function Home() {
     return (
-        <div>
+        <div class="container">
             <Title />
             <Board />
-            <World />
+            <Game />
             <Cards />
-            {/* Maybe just add the BAI here? */}
+            <World />
+            <Cover />
             <About />
             <Footer />
         </div>

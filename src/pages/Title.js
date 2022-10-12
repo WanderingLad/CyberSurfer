@@ -3,10 +3,10 @@ import React from 'react';
 export default function Title() {
     return (
         <section id="title-section" className="title-section">
-            <div className="inside-section">
+            <div class="inside-section text-white">
 
                 <div>
-                    <embed type="video/webm" src="https://youtu.be/UaKOy068O38" width="400" height="300" />
+                    <img src={require('../images/Big Moon.jpg')} alt="Moon" />
                 </div>
 
                 <div>

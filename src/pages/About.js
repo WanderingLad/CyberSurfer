@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function About() {
     return (
-        <section id="about-section" class="flex">
-            <div className="inside-section">
+        <section class="flex">
+            <div>
 
                 <h2>
                     About Us

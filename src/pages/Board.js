@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function Board() {
     return (
-        <section id="board-section" className="board-section">
-            <div className="inside-section flex">
+        <section>
+            <div>
 
-                <div>
+                <div class="d-flex">
                     <h2>
                         Your Board
                     </h2>
@@ -31,12 +31,13 @@ export default function Board() {
                     </div>
 
                     <div>
-                        <img id="header-logo" src={require('../images/Logo.png')} alt="Logo" />
+                        <img src={require('../images/Big Moon.jpg')} alt="Logo" />
                     </div>
                 </div>
 
                 <div>
-                    <img id="header-logo" src={require('../images/Logo.png')} alt="Logo" />
+                    <p>Interested in how our board works?</p>
+                    <button>Check out our dev logs</button>
                 </div>
 
             </div>
